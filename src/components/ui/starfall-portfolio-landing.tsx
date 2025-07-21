@@ -122,6 +122,7 @@ const PortfolioPage: React.FC<PortfolioPageProps> = ({
                     <button onClick={ctaButtons.secondary.onClick} className="glass-button min-w-[160px] inter-font text-sm font-medium text-foreground rounded-lg px-6 py-3">{ctaButtons.secondary.label}</button>
                 </div>
                 <div className="divider mb-16" />
+                <h2 className="text-3xl md:text-4xl font-light text-foreground mb-8 geist-font tracking-tight text-center">Algunos de mis proyectos</h2>
                 <div id="projects" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
                     {projects.map((project, index) => (
                         <div key={index} className="glass-card rounded-2xl p-6 text-left">
