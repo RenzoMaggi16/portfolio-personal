@@ -32,7 +32,7 @@ const customPortfolioData: PortfolioPageProps = {
   projects: [
     { 
       title: 'Ceramica Virtual', 
-      description: 'Landing page moderna y estetica para un curso de ceramica virtual',
+      description: 'Landing page moderna y estetica para un curso de ceramica virtual.',
       tags: ['HTML - CSS - JS', 'Paypal', 'Thinkific'],
       imageContent: (
         <a href="https://ceramicavirtual.com/index.html" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
@@ -42,7 +42,7 @@ const customPortfolioData: PortfolioPageProps = {
     },
     { 
       title: 'Alfred Bot', 
-      description: 'Landing page para un bot de trading de WhatsApp',
+      description: 'Landing page para un bot de trading de WhatsApp.',
       tags: ['HTML - CSS - JS', 'N8N', 'React'],
       imageContent: (
         <a href="https://alfredassistant.netlify.app/" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
@@ -52,7 +52,7 @@ const customPortfolioData: PortfolioPageProps = {
     },
     { 
       title: 'WAKEUP Trading', 
-      description: 'Pagina personalizada para un mentor de trading',
+      description: 'Pagina personalizada para un mentor de trading.',
       tags: ['HTML - CSS - JS', 'React', 'Tailwind CSS'],
       imageContent: (
         <a href="https://ttmtrading.netlify.app/" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
@@ -82,7 +82,7 @@ const customPortfolioData: PortfolioPageProps = {
     },
     { 
       title: 'FinancePro',
-      description: 'Proyecto personal: App de panel de gestion de dinero',
+      description: 'Proyecto personal: App de panel de gestion de dinero.',
       tags: ['React', 'Tailwind CSS', 'VITE', 'Node.js'],
       imageContent: (
         <a href="financepro-rm.netlify.app" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
