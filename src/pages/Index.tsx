@@ -35,7 +35,7 @@ const customPortfolioData: PortfolioPageProps = {
       description: 'Landing page moderna y estetica para un curso de ceramica virtual',
       tags: ['HTML - CSS - JS', 'Paypal', 'Thinkific'],
       imageContent: (
-        <a href="https://ceramicavirtualv3.netlify.app/" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
+        <a href="https://ceramicavirtual.com/index.html" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
           <video className="w-full h-full object-cover rounded-xl" src="/ceramicavirtual.mp4" autoPlay loop muted />
         </a>
       )
@@ -45,7 +45,7 @@ const customPortfolioData: PortfolioPageProps = {
       description: 'Landing page para un bot de trading de WhatsApp',
       tags: ['HTML - CSS - JS', 'N8N', 'React'],
       imageContent: (
-        <a href="https://alfredbot.netlify.app/" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
+        <a href="https://alfredassistant.netlify.app/" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
           <video className="w-full h-full object-cover rounded-xl" src="/alfred.mp4" autoPlay loop muted />
         </a>
       )
@@ -57,6 +57,36 @@ const customPortfolioData: PortfolioPageProps = {
       imageContent: (
         <a href="https://ttmtrading.netlify.app/" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
           <video className="w-full h-full object-cover rounded-xl" src="/wakeuptrading.mp4" autoPlay loop muted />
+        </a>
+      )
+    },
+    { 
+      title: 'Grind Coffe Shop', 
+      description: 'Proyecto personal: Landing page para una cafeteria.',
+      tags: ['React', 'Tailwind CSS', 'VITE'],
+      imageContent: (
+        <a href="caffe-project-rm.netlify.app" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
+          <video className="w-full h-full object-cover rounded-xl" src="/grindcoffe.mp4" autoPlay loop muted />
+        </a>
+      )
+    },
+    { 
+      title: 'Startup Solutions',
+      description: 'Proyecto personal: Landing page para una empresa de soluciones digitales.',
+      tags: ['React', 'Tailwind CSS', 'VITE'],
+      imageContent: (
+        <a href="https://startupsolutions-rm.netlify.app/" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
+          <video className="w-full h-full object-cover rounded-xl" src="/startupsolutions.mp4" autoPlay loop muted />
+        </a>
+      )
+    },
+    { 
+      title: 'FinancePro',
+      description: 'Proyecto personal: App de panel de gestion de dinero',
+      tags: ['React', 'Tailwind CSS', 'VITE', 'Node.js'],
+      imageContent: (
+        <a href="financepro-rm.netlify.app" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
+          <video className="w-full h-full object-cover rounded-xl" src="/financepro.mp4" autoPlay loop muted />
         </a>
       )
     },
